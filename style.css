@@ -1,13 +1,14 @@
-body *, body{
+body *, body {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background-color: #f1f1f1;
 }
 
 /*-----------------------HEADER-----------------------*/
-#header{
+#header {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     color: white;
@@ -16,42 +17,48 @@ body{
     flex-direction: row;
     justify-content: space-around;
 }
-#headerLeft,#headerRight{
+
+#headerLeft, #headerRight {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
-.headerP, .obvLink{
-    margin: 1rem 0.25rem 1rem 0.25rem;
+
+.headerP, .obvLink {
+    margin: 1rem 0.25rem;
 }
-.obvLink:link, .obvLink:visited{
+
+.obvLink:link, .obvLink:visited {
     color: #caceb5;
 }
-.obvLink:hover, .obvLink:active{
+
+.obvLink:hover, .obvLink:active {
     color: white;
 }
 
 /*-----------------------TITLE-----------------------*/
-#title{
+#title {
     font-family: 'Roboto', sans-serif;
     color: white;
     background-color: #018462;
     display: flex;
     align-items: center;
-    padding: 3rem 8rem 3rem 8rem;
+    padding: 3rem 8rem;
 
 }
-#blogTitle{
+
+#blogTitle {
     font-size: 5rem;
     margin-right: 3rem;
 }
-#blogDesc{
+
+#blogDesc {
     font-family: "Roboto Light", sans-serif;
     font-size: 1.75rem;
 }
 
 /*-----------------------NAVBAR-----------------------*/
-#navbar{
+#navbar {
     background-color: #7EB382;
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
@@ -60,74 +67,122 @@ body{
     flex-direction: row;
     justify-content: space-evenly;
 }
-.navButton{
+
+.navButton {
     color: black;
     text-decoration: none;
-    padding: 1rem 3rem 1rem 3rem;
+    padding: 1rem 3rem;
 }
-.navButton:hover, .navButton:active{
+
+.navButton:hover, .navButton:active {
     background-color: #69966c;
 }
 
 /*-----------------------MAIN-----------------------*/
-main{
-    display:flex;
+main {
+    display: flex;
     flex-direction: row-reverse;
     justify-content: center;
 }
+
 /*-----------------------TABLE OF CONTENT-----------------------*/
-#tableOfContent{
+#tableOfContent {
     background-color: #D7DDD2;
     width: 20vw;
+    max-height: 50vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding: 3rem 2rem 3rem 2rem
+    padding: 3rem 2rem;
 }
-.tableTitle{
+
+.tableTitle {
     font-family: 'Roboto', sans-serif;
     font-size: 1.3rem;
     margin-top: 0.5rem
 }
-.linkList{
+
+.linkList {
     display: flex;
     flex-direction: column;
     padding-left: 1.3rem;
 }
-.tableLink{
+
+.tableLink {
     text-decoration: none;
     color: black;
     font-family: 'Roboto', sans-serif;
     padding-top: 0.1rem;
 }
-.tableLink:hover, .tableLink:active{
+
+.tableLink:hover, .tableLink:active {
     color: #5e5e5e;
 }
 
-
 /*-----------------------ARTICLE-----------------------*/
-#article{
+.article {
     font-family: 'Roboto', sans-serif;
     line-height: 1.2;
-    margin: 5rem 3rem;
+    margin: 1.8rem 3rem 0 3rem;
     width: 60vw;
 }
-.articleTitle{
+
+.articleTitle {
     font-size: 1.8rem;
 }
-.articleMetaData{
-    margin: 0.5rem 0 0.5rem 0;
+
+.articleMetaData {
+    margin: 0.5rem 0;
 }
-.articleLink{
+
+.articleLink {
     color: #6b9e50;
     font-weight: bold;
     text-decoration: none;
 }
-.articleLink:hover, .articleLink:active{
-    color:#9cdb7a;
+
+.articleLink:hover, .articleLink:active {
+    color: #9cdb7a;
 }
-.articleQuote{
-    margin: 1.3rem 3rem 1.3rem 3rem;
+
+.articleQuote {
+    margin: 1.3rem 3rem;
     padding: 0.5rem 1rem;
     border-left: 3px solid #6b9e50;
+}
+
+.articleList {
+    margin: 1.3rem 3rem;
+}
+
+h4 {
+    margin-top: 1.5rem;
+}
+
+/*-----------------------FOOTER-----------------------*/
+footer {
+    font-family: 'Roboto', sans-serif;
+    background-color: #093C2B;
+    display: flex;
+    padding: 1rem 5.5rem;
+    line-height: 1.2;
+}
+
+.footerLinkList {
+    margin: 1rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerHeading {
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+    color: #caceb5;
+}
+.footerLink{
+    color: white;
+    text-decoration: none;
+}
+#copyright{
+    padding: 1.5rem 0 0 25rem;
+    color: #caceb5
 }
