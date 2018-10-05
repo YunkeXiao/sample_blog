@@ -1,0 +1,133 @@
+body *, body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f1f1f1;
+}
+
+/*-----------------------HEADER-----------------------*/
+#header{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: white;
+    background-image: linear-gradient(#116A58, #1C5551);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#headerLeft,#headerRight{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.headerP, .obvLink{
+    margin: 1rem 0.25rem 1rem 0.25rem;
+}
+.obvLink:link, .obvLink:visited{
+    color: #caceb5;
+}
+.obvLink:hover, .obvLink:active{
+    color: white;
+}
+
+/*-----------------------TITLE-----------------------*/
+#title{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: #018462;
+    display: flex;
+    align-items: center;
+    padding: 3rem 8rem 3rem 8rem;
+
+}
+#blogTitle{
+    font-size: 5rem;
+    margin-right: 3rem;
+}
+#blogDesc{
+    font-family: "Roboto Light", sans-serif;
+    font-size: 1.75rem;
+}
+
+/*-----------------------NAVBAR-----------------------*/
+#navbar{
+    background-color: #7EB382;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    padding: 0 40rem 0 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.navButton{
+    color: black;
+    text-decoration: none;
+    padding: 1rem 3rem 1rem 3rem;
+}
+.navButton:hover, .navButton:active{
+    background-color: #69966c;
+}
+
+/*-----------------------MAIN-----------------------*/
+main{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+/*-----------------------TABLE OF CONTENT-----------------------*/
+#tableOfContent{
+    background-color: #D7DDD2;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem 2rem 3rem 2rem
+}
+.tableTitle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    margin-top: 0.5rem
+}
+.linkList{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.3rem;
+}
+.tableLink{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 0.1rem;
+}
+.tableLink:hover, .tableLink:active{
+    color: #5e5e5e;
+}
+
+
+/*-----------------------ARTICLE-----------------------*/
+#article{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.2;
+    margin: 5rem 3rem;
+    width: 60vw;
+}
+.articleTitle{
+    font-size: 1.8rem;
+}
+.articleMetaData{
+    margin: 0.5rem 0 0.5rem 0;
+}
+.articleLink{
+    color: #6b9e50;
+    font-weight: bold;
+    text-decoration: none;
+}
+.articleLink:hover, .articleLink:active{
+    color:#9cdb7a;
+}
+.articleQuote{
+    margin: 1.3rem 3rem 1.3rem 3rem;
+    padding: 0.5rem 1rem;
+    border-left: 3px solid #6b9e50;
+}
