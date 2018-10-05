@@ -165,6 +165,7 @@ footer {
     display: flex;
     padding: 1rem 5.5rem;
     line-height: 1.2;
+    margin-top: 2rem;
 }
 
 .footerLinkList {
